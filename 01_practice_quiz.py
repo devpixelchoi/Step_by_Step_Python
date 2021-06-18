@@ -3,8 +3,17 @@ k = 80
 e = 90
 m = 98
 
-average = (k+e+m)/3
-print(complex(average))
+rusult = (k+e+m)/3
+print(complex(result))
+
+### Ver.2
+
+korean = int(input("Please input Korean score : "))
+english = int(input("Please input English score : "))
+math = int(input("Please input Math score : "))
+
+average = (korean+english+math)/3
+print(average)
 
 # Q2    Even Or Odd
 n = int(input("Please input any Numbers : "))
