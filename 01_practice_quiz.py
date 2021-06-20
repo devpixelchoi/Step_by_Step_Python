@@ -44,7 +44,7 @@ elif int(pin[7]) == 1:
 a = "a:b:c:d"
 print(a.replace(":", "#"))
 
-06 list function
+#06 list function
 list_a = [1, 3, 5, 4, 2]
 list_a.sort()
 print(list_a)
