@@ -39,6 +39,10 @@ if int(pin[7]) == 2:
     print("Female")
 elif int(pin[7]) == 1:
     print("male")
+elif int(pin[7]) == 1:
+    print("male")
+elif int(pin[7]) == 3:
+    print("male")
 
 # 05 Replace
 a = "a:b:c:d"
